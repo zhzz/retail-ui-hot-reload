@@ -17,17 +17,21 @@
     "url": "https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate/issues"
   },
   "homepage": "https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate#readme",
-  "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@skbkontur/react-ui": "../retail-ui/packages/retail-ui/build",
+    "@skbkontur/typed-css-modules-loader": "^0.1.4",
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
     "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.22.0",
     "babel-preset-react": "^6.23.0",
-    "react-hot-loader": "^3.0.0-beta.6",
+    "css-loader": "1.0.0",
+    "file-loader": "^3.0.1",
+    "react": "16",
+    "react-dom": "16",
+    "react-hot-loader": "^4.8.2",
+    "style-loader": "^0.23.1",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
   }
